@@ -1,0 +1,128 @@
+{
+  "products": {
+    "car": [
+      {
+        "name": "Toyota Corolla",
+        "price": 450000,
+        "image": "https://imgs.search.brave.com/rZB2a3MMPCzngbbxyY28QDjjCWfUujR6uZTZWk2Ao_M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/OC8yMi8wMi8zNS90/b3lvdGEtNDQyMjM0/OF82NDAuanBn",
+        "details": "2016 model, 80,000 km, well maintained, single owner"
+      },
+      {
+        "name": "Hyundai i20",
+        "price": 380000,
+        "image": "https://imgs.search.brave.com/-soxW1kmXmk91m9u1nGJ5rAV_VyPCBzftRrOxIpUyg0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/Y2FybWFnLmNvLnph/LzE2MS9JTUdfMjAy/NDA4MDdfMDkzNzQ2/LmpwZ18xNjEtODIw/ODgwLmpwZw",
+        "details": "2015 model, 60,000 km, petrol variant, good mileage"
+      },
+      {
+        "name": "G-Wagon",
+        "price": 500000,
+        "image": "https://imgs.search.brave.com/L5r5TAkeih5sjX8xmsQXt6ElgUncXjMK-N7Iv_v9au0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdk/LmFlcGxjZG4uY29t/LzM3MHgyMDgvZWMv/ODIyNC9pbWcvbC8z/NDEzLmpwZz92PTIw/MTcxMTAyMTQyMSZx/PTgw",
+        "details": "2007 model, 80,000 km, well maintained, single owner"
+      },
+      {
+        "name": "Thar Roxx",
+        "price": 180000,
+        "image": "https://imgs.search.brave.com/aLrif-5pmiJc1knhnDqeNetT9X339SWkrzwlA1l3P1o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdk/LWN0LmFlcGxjZG4u/Y29tLzY0MFg0ODAv/dmltYWdlcy8yMDI1/MDYvNDAwNDI2OV8x/MTU5ODhfMV8xNzQ5/NTQ5MTA1MTQyLmpw/Zz9xPTgw",
+        "details": "2024 Top model, 18,000 km, petrol variant,"
+      }
+    ],
+    "bike": [
+      {
+        "name": "Royal Enfield Classic 350",
+        "price": 150000,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0PD-pOVvnp__gdwbcbj50y0op_OiCQXI_g&s",
+        "details": "2020 model, 15,000 km, single owner"
+      },
+      {
+        "name": "Honda Activa 6G",
+        "price": 68000,
+        "image": "https://imgs.search.brave.com/1Rlhd7Z9ltRP5yIpwJ9CYvZ-WTgU6Cpfvfc7jD-zWoY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmlrZXM0c2FsZS5p/bi9waG90b3MtMi84/MjQvODI0NDQwL2hv/bmRhLWFjdGl2YS02/Zy1kbHgtMTc1MDQ4/NTcwOS0yMDAuanBl/Zw",
+        "details": "2022 model, automatic, excellent condition"
+      },
+      {
+        "name": "Royal Enfield Classic 350",
+        "price": 150000,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0PD-pOVvnp__gdwbcbj50y0op_OiCQXI_g&s",
+        "details": "2020 model, 15,000 km, single owner"
+      },
+      {
+        "name": "Honda Activa 6G",
+        "price": 68000,
+        "image": "https://imgs.search.brave.com/1Rlhd7Z9ltRP5yIpwJ9CYvZ-WTgU6Cpfvfc7jD-zWoY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmlrZXM0c2FsZS5p/bi9waG90b3MtMi84/MjQvODI0NDQwL2hv/bmRhLWFjdGl2YS02/Zy1kbHgtMTc1MDQ4/NTcwOS0yMDAuanBl/Zw",
+        "details": "2022 model, automatic, excellent condition"
+      }
+    ],
+    "kitchen": [
+      {
+        "name": "Prestige Gas Stove",
+        "price": 2200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsSnM-jCE0BarXIo2MLA50ZFk0wnhIPJp6g&s",
+        "details": "2-burner stainless steel gas stove with auto ignition"
+      },
+      {
+        "name": "Philips Mixer Grinder",
+        "price": 3500,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdl-qcqfeWhFrU0uP6qNNYvzaOj3MwbqoJg&s",
+        "details": "750W powerful motor, 3 jars included, good condition"
+      }
+    ],
+    "fishtank": [
+      {
+        "name": "20L Glass Fish Tank",
+        "price": 1200,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11VPSDgb0bh9z2ARAnsf_joADg2majWWuEw&s",
+        "details": "Includes filter, LED light, and gravel"
+      },
+      {
+        "name": "Mini Desktop Aquarium",
+        "price": 850,
+        "image": "https://aquapets.in/wp-content/uploads/elementor/thumbs/wp-17250306663324911534772158576708-qtdk718buxm2frh8karzespcppnekqt6fwzk4wi308.jpg",
+        "details": "Perfect for office desk, includes 1 plant and 2 stones"
+      }
+    ],
+    "laptop":[
+      {
+        "name":"Asus Laptop",
+        "price":52000,
+        "image":"https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/11/laptop-running-chromeos.jpg",
+        "details":"Brand new laptop"
+      },
+       {
+        "name":"Hp victus",
+        "price":35000,
+        "image":"https://i.pcmag.com/imagery/reviews/07ezK0W1csQUGdq3uqz7ray-2..v1657556486.jpg",
+        "details":"Budget friendly gaming laptop"
+      }
+    ],
+    "mobile":[
+      {
+        "name":"Samusang f10",
+         "price":7500,
+         "image":"https://apollo.olx.in/v1/files/59bef5nol3x72-IN/image",
+         "details":"Mobile phone with charger"
+      },
+      {
+        "name":"oppo p11",
+        "price":8500,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WjK7JgW9ZC88_tWuHSUGo1QRyUmWjIav4A&s",
+        "details":"Best Gaming phone"
+      },
+      {
+        "name":"oppo p11",
+        "price":8500,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WjK7JgW9ZC88_tWuHSUGo1QRyUmWjIav4A&s",
+        "details":"Best Gaming phone"
+      }
+
+    ]
+,
+"Tv":[
+  {
+    "name":"Sony Tv Lite",
+    "price":12500,
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqSm-fGr7V9PSxXfTWFKEF5jxAUCgowSNcA&s",
+    "details":"3d supported"
+  }
+]    
+  }
+}
