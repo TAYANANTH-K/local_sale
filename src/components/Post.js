@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function Post() {
   const [det, setd] = useState({
-    producttype: "",
+    type: "",
     name: "",
     price: "",
     image: "",
@@ -13,9 +13,9 @@ export default function Post() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { producttype, ...productData } = det;
 
-    axios.post(`http://localhost:4001/products/${producttype}`, productData)
+
+    axios.post(`http://localhost:4001/products?${det.type}}`, det)
       .then((res) => {
         console.log("Posted successfully", res.data);
       })

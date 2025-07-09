@@ -1,128 +1,134 @@
 {
-  "products": {
-    "car": [
-      {
-        "name": "Toyota Corolla",
-        "price": 450000,
-        "image": "https://imgs.search.brave.com/rZB2a3MMPCzngbbxyY28QDjjCWfUujR6uZTZWk2Ao_M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/OC8yMi8wMi8zNS90/b3lvdGEtNDQyMjM0/OF82NDAuanBn",
-        "details": "2016 model, 80,000 km, well maintained, single owner"
-      },
-      {
-        "name": "Hyundai i20",
-        "price": 380000,
-        "image": "https://imgs.search.brave.com/-soxW1kmXmk91m9u1nGJ5rAV_VyPCBzftRrOxIpUyg0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/Y2FybWFnLmNvLnph/LzE2MS9JTUdfMjAy/NDA4MDdfMDkzNzQ2/LmpwZ18xNjEtODIw/ODgwLmpwZw",
-        "details": "2015 model, 60,000 km, petrol variant, good mileage"
-      },
-      {
-        "name": "G-Wagon",
-        "price": 500000,
-        "image": "https://imgs.search.brave.com/L5r5TAkeih5sjX8xmsQXt6ElgUncXjMK-N7Iv_v9au0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdk/LmFlcGxjZG4uY29t/LzM3MHgyMDgvZWMv/ODIyNC9pbWcvbC8z/NDEzLmpwZz92PTIw/MTcxMTAyMTQyMSZx/PTgw",
-        "details": "2007 model, 80,000 km, well maintained, single owner"
-      },
-      {
-        "name": "Thar Roxx",
-        "price": 180000,
-        "image": "https://imgs.search.brave.com/aLrif-5pmiJc1knhnDqeNetT9X339SWkrzwlA1l3P1o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdk/LWN0LmFlcGxjZG4u/Y29tLzY0MFg0ODAv/dmltYWdlcy8yMDI1/MDYvNDAwNDI2OV8x/MTU5ODhfMV8xNzQ5/NTQ5MTA1MTQyLmpw/Zz9xPTgw",
-        "details": "2024 Top model, 18,000 km, petrol variant,"
-      }
-    ],
-    "bike": [
-      {
-        "name": "Royal Enfield Classic 350",
-        "price": 150000,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0PD-pOVvnp__gdwbcbj50y0op_OiCQXI_g&s",
-        "details": "2020 model, 15,000 km, single owner"
-      },
-      {
-        "name": "Honda Activa 6G",
-        "price": 68000,
-        "image": "https://imgs.search.brave.com/1Rlhd7Z9ltRP5yIpwJ9CYvZ-WTgU6Cpfvfc7jD-zWoY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmlrZXM0c2FsZS5p/bi9waG90b3MtMi84/MjQvODI0NDQwL2hv/bmRhLWFjdGl2YS02/Zy1kbHgtMTc1MDQ4/NTcwOS0yMDAuanBl/Zw",
-        "details": "2022 model, automatic, excellent condition"
-      },
-      {
-        "name": "Royal Enfield Classic 350",
-        "price": 150000,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0PD-pOVvnp__gdwbcbj50y0op_OiCQXI_g&s",
-        "details": "2020 model, 15,000 km, single owner"
-      },
-      {
-        "name": "Honda Activa 6G",
-        "price": 68000,
-        "image": "https://imgs.search.brave.com/1Rlhd7Z9ltRP5yIpwJ9CYvZ-WTgU6Cpfvfc7jD-zWoY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmlrZXM0c2FsZS5p/bi9waG90b3MtMi84/MjQvODI0NDQwL2hv/bmRhLWFjdGl2YS02/Zy1kbHgtMTc1MDQ4/NTcwOS0yMDAuanBl/Zw",
-        "details": "2022 model, automatic, excellent condition"
-      }
-    ],
-    "kitchen": [
-      {
-        "name": "Prestige Gas Stove",
-        "price": 2200,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsSnM-jCE0BarXIo2MLA50ZFk0wnhIPJp6g&s",
-        "details": "2-burner stainless steel gas stove with auto ignition"
-      },
-      {
-        "name": "Philips Mixer Grinder",
-        "price": 3500,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdl-qcqfeWhFrU0uP6qNNYvzaOj3MwbqoJg&s",
-        "details": "750W powerful motor, 3 jars included, good condition"
-      }
-    ],
-    "fishtank": [
-      {
-        "name": "20L Glass Fish Tank",
-        "price": 1200,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11VPSDgb0bh9z2ARAnsf_joADg2majWWuEw&s",
-        "details": "Includes filter, LED light, and gravel"
-      },
-      {
-        "name": "Mini Desktop Aquarium",
-        "price": 850,
-        "image": "https://aquapets.in/wp-content/uploads/elementor/thumbs/wp-17250306663324911534772158576708-qtdk718buxm2frh8karzespcppnekqt6fwzk4wi308.jpg",
-        "details": "Perfect for office desk, includes 1 plant and 2 stones"
-      }
-    ],
-    "laptop":[
-      {
-        "name":"Asus Laptop",
-        "price":52000,
-        "image":"https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/11/laptop-running-chromeos.jpg",
-        "details":"Brand new laptop"
-      },
-       {
-        "name":"Hp victus",
-        "price":35000,
-        "image":"https://i.pcmag.com/imagery/reviews/07ezK0W1csQUGdq3uqz7ray-2..v1657556486.jpg",
-        "details":"Budget friendly gaming laptop"
-      }
-    ],
-    "mobile":[
-      {
-        "name":"Samusang f10",
-         "price":7500,
-         "image":"https://apollo.olx.in/v1/files/59bef5nol3x72-IN/image",
-         "details":"Mobile phone with charger"
-      },
-      {
-        "name":"oppo p11",
-        "price":8500,
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WjK7JgW9ZC88_tWuHSUGo1QRyUmWjIav4A&s",
-        "details":"Best Gaming phone"
-      },
-      {
-        "name":"oppo p11",
-        "price":8500,
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WjK7JgW9ZC88_tWuHSUGo1QRyUmWjIav4A&s",
-        "details":"Best Gaming phone"
-      }
-
-    ]
-,
-"Tv":[
-  {
-    "name":"Sony Tv Lite",
-    "price":12500,
-    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqSm-fGr7V9PSxXfTWFKEF5jxAUCgowSNcA&s",
-    "details":"3d supported"
-  }
-]    
-  }
+  "products": [
+    {
+      "type": "car",
+      "name": "Toyota Corolla",
+      "price": 450000,
+      "image": "https://imgs.search.brave.com/rZB2a3MMPCzngbbxyY28QDjjCWfUujR6uZTZWk2Ao_M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cGl4YWJheS5jb20v/cGhvdG8vMjAxOS8w/OC8yMi8wMi8zNS90/b3lvdGEtNDQyMjM0/OF82NDAuanBn",
+      "details": "2016 model, 80,000 km, well maintained, single owner"
+    },
+    {
+      "type": "car",
+      "name": "Hyundai i20",
+      "price": 380000,
+      "image": "https://imgs.search.brave.com/-soxW1kmXmk91m9u1nGJ5rAV_VyPCBzftRrOxIpUyg0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/Y2FybWFnLmNvLnph/LzE2MS9JTUdfMjAy/NDA4MDdfMDkzNzQ2/LmpwZ18xNjEtODIw/ODgwLmpwZw",
+      "details": "2015 model, 60,000 km, petrol variant, good mileage"
+    },
+    {
+      "type": "car",
+      "name": "G-Wagon",
+      "price": 500000,
+      "image": "https://imgs.search.brave.com/L5r5TAkeih5sjX8xmsQXt6ElgUncXjMK-N7Iv_v9au0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdk/LmFlcGxjZG4uY29t/LzM3MHgyMDgvZWMv/ODIyNC9pbWcvbC8z/NDEzLmpwZz92PTIw/MTcxMTAyMTQyMSZx/PTgw",
+      "details": "2007 model, 80,000 km, well maintained, single owner"
+    },
+    {
+      "type": "car",
+      "name": "Thar Roxx",
+      "price": 180000,
+      "image": "https://imgs.search.brave.com/aLrif-5pmiJc1knhnDqeNetT9X339SWkrzwlA1l3P1o/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWdk/LWN0LmFlcGxjZG4u/Y29tLzY0MFg0ODAv/dmltYWdlcy8yMDI1/MDYvNDAwNDI2OV8x/MTU5ODhfMV8xNzQ5/NTQ5MTA1MTQyLmpw/Zz9xPTgw",
+      "details": "2024 Top model, 18,000 km, petrol variant"
+    },
+    {
+      "type": "bike",
+      "name": "Royal Enfield Classic 350",
+      "price": 150000,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_0PD-pOVvnp__gdwbcbj50y0op_OiCQXI_g&s",
+      "details": "2020 model, 15,000 km, single owner"
+    },
+    {
+      "type": "bike",
+      "name": "Honda Activa 6G",
+      "price": 68000,
+      "image": "https://imgs.search.brave.com/1Rlhd7Z9ltRP5yIpwJ9CYvZ-WTgU6Cpfvfc7jD-zWoY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YmlrZXM0c2FsZS5p/bi9waG90b3MtMi84/MjQvODI0NDQwL2hv/bmRhLWFjdGl2YS02/Zy1kbHgtMTc1MDQ4/NTcwOS0yMDAuanBl/Zw",
+      "details": "2022 model, automatic, excellent condition"
+    },
+    {
+      "type": "kitchen",
+      "name": "Prestige Gas Stove",
+      "price": 2200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMsSnM-jCE0BarXIo2MLA50ZFk0wnhIPJp6g&s",
+      "details": "2-burner stainless steel gas stove with auto ignition"
+    },
+    {
+      "type": "kitchen",
+      "name": "Philips Mixer Grinder",
+      "price": 3500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdl-qcqfeWhFrU0uP6qNNYvzaOj3MwbqoJg&s",
+      "details": "750W powerful motor, 3 jars included, good condition"
+    },
+    {
+      "type": "fishtank",
+      "name": "20L Glass Fish Tank",
+      "price": 1200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ11VPSDgb0bh9z2ARAnsf_joADg2majWWuEw&s",
+      "details": "Includes filter, LED light, and gravel"
+    },
+    {
+      "type": "fishtank",
+      "name": "Mini Desktop Aquarium",
+      "price": 850,
+      "image": "https://aquapets.in/wp-content/uploads/elementor/thumbs/wp-17250306663324911534772158576708-qtdk718buxm2frh8karzespcppnekqt6fwzk4wi308.jpg",
+      "details": "Perfect for office desk, includes 1 plant and 2 stones"
+    },
+    {
+      "type": "laptop",
+      "name": "Asus Laptop",
+      "price": 52000,
+      "image": "https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2024/11/laptop-running-chromeos.jpg",
+      "details": "Brand new laptop"
+    },
+    {
+      "type": "laptop",
+      "name": "Hp victus",
+      "price": 35000,
+      "image": "https://i.pcmag.com/imagery/reviews/07ezK0W1csQUGdq3uqz7ray-2..v1657556486.jpg",
+      "details": "Budget friendly gaming laptop"
+    },
+    {
+      "type": "mobile",
+      "name": "Samusang f10",
+      "price": 7500,
+      "image": "https://apollo.olx.in/v1/files/59bef5nol3x72-IN/image",
+      "details": "Mobile phone with charger"
+    },
+    {
+      "type": "mobile",
+      "name": "oppo p11",
+      "price": 8500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5WjK7JgW9ZC88_tWuHSUGo1QRyUmWjIav4A&s",
+      "details": "Best Gaming phone"
+    },
+    {
+      "type": "tv",
+      "name": "Sony Tv Lite",
+      "price": 12500,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCqSm-fGr7V9PSxXfTWFKEF5jxAUCgowSNcA&s",
+      "details": "3d supported"
+    },
+    {
+      "id": "e28d",
+      "type": "bike",
+      "name": "Hero Honda Splendor",
+      "price": "17000",
+      "image": "https://apollo.olx.in/v1/files/9q50eumn9m1e-IN/image",
+      "details": "best mileage"
+    },
+    {
+      "id": "8d9d",
+      "type": "",
+      "name": "hp pavillion",
+      "price": "600000",
+      "image": "data:image/jpeg;base64,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",
+      "details": "details"
+    },
+    {
+      "id": "a927",
+      "type": "",
+      "name": "",
+      "price": "",
+      "image": "",
+      "details": "",
+      "producttype": "bike"
+    }
+  ]
 }
