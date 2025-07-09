@@ -7,6 +7,7 @@ import Home from './components/Home';
 import { createContext, useContext } from 'react';
 
 import Not from './components/Not';
+import Post from './components/Post';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
          <Route path='*' element={<Not/>}/>
 
       </Routes>
-      
+      <Post/>
       
     </div>
   );

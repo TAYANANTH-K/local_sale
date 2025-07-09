@@ -3,6 +3,9 @@ import axios from 'axios';
 
 export default function Home() {
   const [prd, setpr] = useState([]);
+  
+
+
 
   useEffect(() => {
     axios.get('http://localhost:4001/products')
@@ -18,6 +21,25 @@ export default function Home() {
         console.error('Error fetching products:', e);
       });
   }, []);
+  
+  const Me=(e)=>
+  {
+    
+    axios.get('http://localhost:4001/products/${e}')
+    .then((res) => {
+        const allProducts = [];
+        const data = res.data;
+        for (const category in data) {
+          allProducts.push(...data[category]);
+        }
+        setpr(allProducts);
+      })
+      .catch((e) => {
+        console.error('Error fetching products:', e);
+      });
+     
+     
+  }
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial'}}>
@@ -50,7 +72,7 @@ export default function Home() {
         borderRadius: '4px'
       }}
     >
-      <option> </option>
+      <option > </option>
       <option>500 - 1000</option>
       <option>greater than 1000</option>
       <option>less than 500</option>
@@ -68,7 +90,7 @@ export default function Home() {
         borderRadius: '4px'
       }}
     >
-      <option> </option>
+      <option onChange={(e)=>Me(e.target.value)}> </option>
       <option>Kitchen</option>
       <option>Bike</option>
       <option>Car</option>
