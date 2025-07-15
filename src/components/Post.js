@@ -27,7 +27,7 @@ export default function Post() {
   return (
     <div>
       <h1>Post for Sale</h1>
-      <form style={{ border: "2px solid black", padding: "10px" }} onSubmit={handleSubmit}>
+      <form style={{ border: "2px solid black", padding: "10px", margin:"10%" ,justifyContent:"center" }} onSubmit={handleSubmit}>
         <label>Product type:</label>
         <select value={det.producttype} onChange={(e) => setd({ ...det, producttype: e.target.value })}>
           <option value="">Select</option>

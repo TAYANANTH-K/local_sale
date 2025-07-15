@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import logo from './logos.png';
 import { Link, useNavigate } from 'react-router-dom';
-
+import { useContext } from 'react';
+import App, { Value } from '../App';
 export default function Login() {
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
   const navigate = useNavigate();
+  const{settEmail}=useContext(Value)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -15,16 +17,16 @@ export default function Login() {
       const response = await axios.get('http://localhost:4000/users');
       const users = response.data;
 
-      
+    
       const user = users.find(u => u.email === email && u.pass === pass);
 
       if (user) {
         alert('Login successful!');
-        navigate('/Home'); 
+        navigate('/Home');
+        settEmail(email);
       } else {
         alert('Invalid email or password');
       }
-
     } catch (error) {
       console.error('Login error:', error);
       alert('Something went wrong during login');
@@ -32,6 +34,8 @@ export default function Login() {
   };
 
   return (
+
+    
     <div style={containerStyle}>
       <div style={cardStyle}>
         <form onSubmit={handleSubmit} style={{ marginRight: '30px' }}>
@@ -74,10 +78,11 @@ export default function Login() {
         />
       </div>
     </div>
+
   );
 }
 
-// Styles
+
 const containerStyle = {
   backgroundColor: '#e0f7fa',
   marginTop: '9%',

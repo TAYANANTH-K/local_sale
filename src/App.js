@@ -4,24 +4,30 @@ import Signup from './components/Signup';
 import Login from './components/Login';
 import {BrowserRouter ,Route,Routes} from 'react-router-dom'
 import Home from './components/Home';
-import { createContext, useContext } from 'react';
-
+import React, { createContext, useContext, useState } from 'react';
+import Buy from './components/Buy';
 import Not from './components/Not';
 import Post from './components/Post';
-
+import { Passmail } from './components/Login';
+export const Value=React.createContext();
 function App() {
+
+  const [eemail,settEmail]=useState('')
   return (
     <div className="App">
       
-      
+      <Value.Provider value={{eemail,settEmail}}>
       <Routes>
          <Route index path="/" element={<Signup/>}/>  
          <Route path="/Login" element={<Login/>}/>  
          <Route path="/Home" element={<Home/>}/> 
          <Route path='*' element={<Not/>}/>
+             <Route path="/buy/:name" element={<Buy />} />
          <Route path='/Post' element={<Post/>}/>
 
       </Routes>
+
+      </Value.Provider>
     
       
     </div>
