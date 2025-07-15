@@ -7,7 +7,9 @@ export default function Post() {
     name: "",
     price: "",
     image: "",
-    details: ""
+    details: "",
+    email:"",
+    mobile:""
   });
 
   const handleSubmit = (e) => {
@@ -15,7 +17,7 @@ export default function Post() {
 
 
 
-    axios.post(`http://localhost:4001/products?${det.type}}`, det)
+    axios.post(`http://localhost:4002/products?${det.type}}`, det)
       .then((res) => {
         console.log("Posted successfully", res.data);
       })
@@ -49,6 +51,10 @@ export default function Post() {
         />
         <br /><br />
 
+        <label> Email:</label>
+
+        <input type="email" value={det.email} onChange={(e)=>setd({...det,email:e.target.value})} />
+        <br/> <br/>
         <label>Price:</label>
         <input
           type="number"
@@ -72,6 +78,9 @@ export default function Post() {
           onChange={(e) => setd({ ...det, details: e.target.value })}
         />
         <br /><br />
+
+        <label> Mobile :</label>
+        <input type="text" value={det.mobile} onChange={(e)=>setd({...det,mobile:e.target.value})}/>
 
         <button type="submit">Submit</button>
       </form>
